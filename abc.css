@@ -154,12 +154,10 @@ h2{
 
 .wrap{
     background-color: #171715;
-    width: 350px;
+    width: 300px;
     border-radius: 20px;
     padding: 15px;
-    height: 550px;
-    overflow: hidden;
-    position: relative;
+    height: 485px;
 }
 .wrap i {
     cursor: pointer;
@@ -176,16 +174,14 @@ h2{
     font-size: 18px;
 }
 .img-area{
-height: 250px;
-    width: 250px;
+height: 200px;
+    width: 200px;
     overflow: hidden;
-    margin: 15px 50px;
+    margin: 15px 45px;
+    position: relative;
 }
 .img-area img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: relative;
+
     border-radius: 50%;
 }
 
@@ -206,7 +202,7 @@ height: 250px;
     background-color: #f0f0f0;
     border-radius: 50px;
     cursor: pointer;
-    
+    background-color: #91918c;
 }
 .progress-bar{
     height: inherit;
@@ -259,8 +255,8 @@ height: 250px;
 .controls #next{
     margin-left: 13px;}
 .controls .pause{
-    height: 54px;
-    width: 54px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -271,8 +267,8 @@ height: 250px;
 .pause::before{
     content: '';
     position: absolute;
-    height: 43px;
-    width: 43px;
+    height: 36px;
+    width: 36px;
     border-radius: inherit;
     background: linear-gradient(90deg, rgb(128, 87, 0) 0%,rgb(29, 28, 28) 100%);
 }
