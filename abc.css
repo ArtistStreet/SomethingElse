@@ -7,8 +7,6 @@
 }
 body{
     background: #000;
-    /* -webkit-mask-image: linear-gradient(to top,black 70%,transparent 100%); */
-
 }
 
 .header{
@@ -102,7 +100,6 @@ img{
     position: absolute;
     align-items: center;
     color: #815f30;
-    cursor: auto;
     z-index: 3;
     transition: 0.5s ease;
     left: 50%;
